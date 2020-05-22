@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "amaizing-crazy/train-schedule"
+        DOCKER_IMAGE_NAME = "amaizingcrazy/train-schedule"
         CANARY_REPLICAS = 0
     }
     stages {
