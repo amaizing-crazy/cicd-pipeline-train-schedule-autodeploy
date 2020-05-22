@@ -54,7 +54,6 @@ pipeline {
                 )
             }
         }
-    }
     stage('SmokeTest') {
             when {
                 branch 'master'
